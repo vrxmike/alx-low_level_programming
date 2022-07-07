@@ -5,7 +5,7 @@
 * @n: the passed args
 * Return: the last digit
 */
-int print_last_digit(int_min)
+int print_last_digit(int n)
 {
 	int x;
 
@@ -13,5 +13,5 @@ int print_last_digit(int_min)
 		n = -n;
 	x = n % 10;
 	_putchar(x + '0');
-	return (x);
+	return (0);
 }
