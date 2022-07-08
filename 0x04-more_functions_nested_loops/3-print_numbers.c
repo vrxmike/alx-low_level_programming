@@ -1,23 +1,18 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
-  * print_diagonal -> printing line
-  * @n: integer params
-  */
-void print_diagonal(int n)
+ * print_numbers - Print numbers between 0 to 9 incl.
+ *
+ * Return: Void.
+ */
+void print_numbers(void)
 {
-	int x, i;
+	int i;
 
-	if (n <= 0)
-		_putchar('\n');
-	else
+	for (i = 0; i < 10; i++)
 	{
-		for (x = 0; x < n; x++)
-		{
-			for(i = 0; i <= x; i++)
-				_putchar(' ');
-			_putchar(92);
-			_putchar('\n');
-		}
+		_putchar(i + '0');
 	}
+	_putchar('\n');
 }
