@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * main - prints _putchar, fllowd by a new linees
- * Return: Alwys 0 (Success)
+ * main - prints_putchar, followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -18,4 +18,3 @@ int main(void)
 	_putchar('\n');
 	return (0);
 }
-
