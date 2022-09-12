@@ -2,7 +2,8 @@
 
 
 /**
- * print_alphabet_x10 - Prints the alphabet in lowercase 10 times followed by a new line
+ * print_alphabet_x10 - Prints the alphabet in lowercase 10 times
+ * Followed by a new line
  * You can only use 'putchar' twice
  * Return: always zero
  */
