@@ -2,6 +2,8 @@
 
 /**
  * print_triangle - prints a triangle.
+ * you can only use 'putchar' once.
+ * use the character'#' to print the triangle.
  * @size: size of the triangle.
  * Return: void.
  */
