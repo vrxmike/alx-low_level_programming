@@ -1,6 +1,10 @@
 #include "main.h"
 /**
  * print_number - Prints an integer.
+ * you can only use 'putchar' function to print.
+ * you are allowed to use 'long'.
+ * you are not allowed to use arrays or pointers.
+ * you are not allowed to hard-code special values.
  * @n: The integer to be printed.
  */
 void print_number(int n)
