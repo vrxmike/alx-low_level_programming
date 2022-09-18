@@ -9,7 +9,7 @@
  *
  * Return: Nothing.
  */
-void simple_print_buffer(char *buffer, unsigned int size)
+void simple_print_buffer(char *buffer, unsigned int siz)
 {
 	unsigned int i;
 
