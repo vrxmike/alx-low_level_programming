@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  *str_concat - Concatenates two strings
- *@s2: First string
+ *@s1: First string
  *@s2: Second String
  *Return: Pointer to the new string
  */
@@ -39,4 +39,3 @@ s[l + i] = s2[l];
 s[i + j] = '\0';
 return (s);
 }
-
