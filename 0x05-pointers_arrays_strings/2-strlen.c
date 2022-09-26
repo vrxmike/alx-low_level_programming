@@ -1,13 +1,20 @@
 #include "main.h"
+
 /**
- *_strlen - Entry point
- *@s: Parameter
- *Return: i
+ * _strlen - get the length of parsed string
+ * @s: string to get length;
+ * Return: returns the length
  */
+
 int _strlen(char *s)
 {
-int i = 0;
-while (*(s + i))
-i++;
-return (i);
+	int x, count = 0;
+
+	for (x = 0; ; x++)
+	{
+		count++;
+		if (s[x] == '\0')
+		break;
+	}
+	return (count - 1);
 }
